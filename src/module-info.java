@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author mabdelaal
+ *
+ */
+module HackerRankSolutions {
+}
