@@ -22,9 +22,6 @@ public class HashSetTest {
 		}
 		
 		bf.close();
-		
-		
-
 	}
 
 }
