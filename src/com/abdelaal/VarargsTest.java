@@ -10,18 +10,12 @@ import java.util.stream.IntStream;
 class Add{
 	 static void add(int... arr) {
 		int sum =0;
-		
 		for (int i = 0; i < arr.length; i++) { 			
 			sum+= arr[i];
 			System.out.print(arr[i]);
 			if (i != arr.length-1) 
 				System.out.print("+");
 		}
-		
-		
-		 			
-			
-		
 		System.out.println("="+sum);
 		
 	}
