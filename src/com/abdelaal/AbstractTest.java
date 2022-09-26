@@ -10,13 +10,10 @@ abstract class Book{
 }
 
 class MyBook extends Book {
-
 	@Override
 	void setTitle(String s) {
-		super.title = s;
-		
-	}
-	
+		super.title = s;		
+	}	
 }
 
 public class AbstractTest {
