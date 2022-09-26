@@ -49,9 +49,6 @@ public class SortTest {
 				Comparator.comparing
 				(Student::getCgpa).reversed()				
 				.thenComparing(Student::getFname)
-				
-//				.thenComparing(Student::getCgpa)
-//				.thenComparing(Student::getId)
 				;
 		
 		studentList = studentList.stream().sorted(comp).collect(Collectors.toList());
