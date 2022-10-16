@@ -19,10 +19,6 @@ public class BigSetTest {
 
 	public static void main(String[] args) throws IOException {
 
-//		int cc = 10;
-//		String resultWithPadding = String.format("%8s", Integer.toBinaryString(cc)).replaceAll(" ", "0");
-//		System.out.println(resultWithPadding);
-
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String[] str = br.readLine().replaceAll("\\s+$", "").trim().split(" ");
 		int N = Integer.parseInt(str[0]), M = Integer.parseInt(str[1]);
@@ -61,7 +57,7 @@ public class BigSetTest {
 				}
 			}
 			
-			System.out.print(operation+" ");
+//			System.out.print(operation+" ");
 			System.out.print(B1.cardinality());
 			System.out.print(" ");
 			System.out.print(B2.cardinality());
